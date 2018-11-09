@@ -1,5 +1,10 @@
 @charset "utf-8";
 
+.hero {
+  background: #ffa4a8;
+  height: auto;
+}
+
 .textAbout img {
   width: 100%;
   max-width: 100%;
