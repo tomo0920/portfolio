@@ -1,5 +1,10 @@
 @charset "utf-8";
 
+.hero {
+  background: #ffa4a8;
+  height: auto;
+}
+
 .title {
   border-bottom: solid 1px #58a404;
 }
