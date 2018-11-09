@@ -1,5 +1,10 @@
 @charset "utf-8";
 
+.hero {
+  background: #ffa4a8;
+  height: auto;
+}
+
 a #dousousei {
   display: block;
   padding-top: 150px;
