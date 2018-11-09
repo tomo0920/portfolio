@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+main {
+  width: 600px;
+}
+
+
+.d1 {
+  border-left: 10px solid #000d75;
+  margin: 20px 0 5px 20px;
+  padding: 8px 10px 5px;
+}
+
+
+main > img {
+  height: 300px;
+  width: 900px;
+}
+
+.pre1 {
+  margin: 40px;
+  padding: 10px;
+}

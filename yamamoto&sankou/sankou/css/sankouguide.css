@@ -1,0 +1,163 @@
+@charset "utf-8";
+
+body {
+  background: #ff9966;
+  font-family: メイリオ, Meiryo, "MS ゴシック", Osaka;
+}
+
+.container {
+  background: #ffffff;
+  margin: auto;
+  width: 900px;
+}
+
+main {
+  width: 600px;
+}
+
+.d1 {
+  padding: 20px;
+}
+
+.title2 {
+  border-left: 10px solid #000080;
+  font-size: 140%;
+  margin: 20px 30px 5px;
+  padding: 8px 20px 5px;
+  padding-left: 10px;
+}
+
+.pre1 {
+  align-items: center;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  margin-left: 30px;
+  text-indent: 1em;
+  width: 850px;
+}
+
+.pre1 img {
+  height: 200px;
+  margin-left: 20px;
+}
+
+.subtitle {
+  border-left: 10px solid #0075a9;
+  margin: 20px 30px 5px;
+  padding: 8px 10px 5px;
+}
+
+.subpre {
+  align-items: center;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  margin-left: 30px;
+  text-indent: 1em;
+  width: 850px;
+}
+
+.subpre img {
+  height: 200px;
+  margin-left: 20px;
+  width: 300px;
+}
+
+.sub {
+  display: flex;
+  flex-direction: column;
+  margin-left: 60px;
+}
+
+.title3 {
+  border-left: 10px solid #0075a9;
+  font-size: 140%;
+  margin: 5px 30px;
+  padding: 5px 20px;
+  padding-left: 10px;
+}
+
+.pre2 {
+  margin: 5px;
+  padding: 5px 20px;
+}
+
+table {
+  margin: 10px;
+  width: 850px;
+}
+
+td {
+  border: 1px solid #b7b7b7;
+  padding: 5px;
+}
+
+td:nth-child(1) {
+  text-align: center;
+  width: 150px;
+}
+
+td:nth-child(2) {
+  width: 600px;
+}
+
+.title4 {
+  border-left: 10px solid #0075a9;
+  font-size: 140%;
+  margin: 5px 30px;
+  padding: 5px 20px;
+  padding-left: 10px;
+}
+
+.pre3 {
+  border: 5px solid #5abbe4;
+  margin: 20px 60px;
+  padding: 10px 15px;
+}
+
+.title5 {
+  border-left: 10px solid #0075a9;
+  font-size: 140%;
+  margin: 5px 30px;
+  padding: 5px 20px;
+  padding-left: 10px;
+}
+
+.pre4 {
+  margin: 5px;
+  padding: 5px 20px;
+}
+
+.title6 {
+  border-left: 10px solid #0075a9;
+  font-size: 140%;
+  margin: 5px 30px;
+  padding: 5px 20px;
+  padding-left: 10px;
+}
+
+.creditUnitText1 {
+  margin-left: 50px;
+  width: 350px;
+}
+
+.creditUnitMap1 {
+  padding-left: 70px;
+}
+
+.creditUnitText2 {
+  margin-left: 50px;
+  width: 350px;
+}
+
+.creditUnitMap2 {
+  padding-left: 70px;
+}
+
+
+.creditUnitText1 > iframe {
+  border: none;
+  height: 300px;
+  width: 800px;
+}

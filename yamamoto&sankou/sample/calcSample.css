@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+body {
+  background-color: gray;
+}
+
+body > div {
+  width: 800px;
+  height: 300px;
+  background-color: white;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.flex-container > div {
+  background-color: red;
+  border: solid 1px #000;
+  width: calc((100% - 6px - 20px) / 3);
+  height: 80px;
+  margin-left: 5px;
+}

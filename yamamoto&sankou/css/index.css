@@ -1,0 +1,64 @@
+@charset "utf-8";
+
+header .top {
+  background: url(../images/yamamoto%20icon.jpg)no-repeat left center;
+  margin-left: 20px;
+  padding: 20px 120px;
+}
+
+main {
+  width: 600px;
+}
+
+main > img {
+  height: 300px;
+  width: 900px;
+}
+
+.content1 {
+  display: flex;
+  margin: 10px;
+  width: calc(100%/3);
+}
+
+.content1:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.content1 img {
+  height: 190px;
+}
+
+.content2 {
+  display: flex;
+  margin: 10px;
+  width: calc(100%/3);
+}
+
+.content2 img {
+  height: 190px;
+}
+
+.portfolio {
+  display: inline-block;
+  border: 1px #000000 solid;
+  padding: 10px;
+  margin: 10px;
+}
+
+.portfolio:hover {
+  background: #389bc2;
+}
+
+.site-footer {
+  background: #333;
+  padding: 80px 0;
+}
+
+.copyright {
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+}

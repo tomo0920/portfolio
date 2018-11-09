@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+.title1 {
+  border-left: 10px solid #000d75;
+  font-size: 130%;
+  margin: 20px 0 5px 20px;
+  padding: 8px 10px 5px;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.content img,
+.content-one img {
+  height: 190px;
+}
+
+.content-section {
+  border: 1px #000000 solid;
+  margin: 10px;
+  padding: 10px;
+}
+
+.content-one {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.content-one-section {
+  border: 1px #000000 solid;
+  margin: 20px;
+  padding: 10px;
+}

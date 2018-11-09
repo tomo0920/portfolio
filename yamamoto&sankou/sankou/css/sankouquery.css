@@ -1,0 +1,51 @@
+@charset "utf-8";
+
+.d1 {
+  margin: 10px;
+  padding: 10px;
+}
+
+ul li {
+  list-style: none;
+}
+
+label {
+  float: left;
+  margin-right: 10px;
+  width: 130px;
+}
+
+.name {
+  margin-bottom: 10px;
+  width: 300px;
+}
+
+.hurigana {
+  margin-bottom: 10px;
+  width: 300px;
+}
+
+.phone {
+  margin-bottom: 10px;
+  width: 300px;
+}
+
+.email {
+  margin-bottom: 10px;
+  width: 300px;
+}
+
+.msg {
+  margin-bottom: 10px;
+  width: 300px;
+}
+
+.button {
+  display: block;
+  margin: 0 auto;
+}
+
+textarea {
+  height: 130px;
+  width: 430px;
+}

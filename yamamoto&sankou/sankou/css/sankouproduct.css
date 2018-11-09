@@ -1,0 +1,95 @@
+@charset "utf-8";
+
+body {
+  background: #ff9966;
+  font-family: メイリオ, Meiryo, "MS ゴシック", Osaka;
+}
+
+.container {
+  background: #ffffff;
+  margin: auto;
+  width: 900px;
+}
+
+.title1 {
+  border-left: 10px solid #0075a9;
+  font-size: 130%;
+  margin: 20px 20px;
+  padding: 8px 15px;
+}
+
+.content1 {
+  display: flex;
+  flex-direction: row;
+}
+
+.content1 img {
+  height: 200px;
+  width: 250px;
+}
+
+.content1 > .s1,
+.s2,
+s3 {
+  width: calc((100% -44px) / 3);
+}
+
+.s1 {
+  border: 1px #000000 solid;
+  margin: 10px;
+  padding: 10px;
+}
+
+.s1 > img {
+  width: 260px;
+}
+
+.s2 {
+  border: 1px #000000 solid;
+  margin: 10px;
+  padding: 10px;
+}
+
+.s3 {
+  border: 1px #000000 solid;
+  margin: 10px;
+  padding: 10px;
+}
+
+
+.content2 {
+  display: flex;
+  flex-direction: row;
+}
+
+.content2 img {
+  height: 190px;
+}
+
+.content2 > .s4,
+.s5,
+.s6 {
+  width: calc((100% - 6px - 60px) / 3);
+}
+
+.s4 {
+  border: 1px #000000 solid;
+  margin: 10px;
+  padding: 10px;
+}
+
+.s5 {
+  border: 1px #000000 solid;
+  margin: 10px;
+  padding: 10px;
+}
+
+.s6 {
+  border: 1px #000000 solid;
+  margin: 10px;
+  padding: 10px;
+}
+
+.s6 img {
+  width: 250px;
+}

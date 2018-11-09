@@ -1,0 +1,148 @@
+@charset "utf-8";
+
+
+main {
+  width: 600px;
+}
+
+main > img {
+  height: 350px;
+  width: 900px;
+}
+
+.d1 {
+  padding: 20px;
+}
+
+.d2 {
+  border-left: 10px solid #000d75;
+  font-size: 130%;
+  margin: 30px 0 5px 20px;
+  padding: 8px 10px 5px;
+}
+
+.mainText {
+  display: flex;
+  flex-direction: row;
+  width: 900px;
+}
+
+.pre1 {
+  align-items: center;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  letter-spacing: 0.1em;
+  margin-left: 37px;
+  width: 600px;
+}
+
+.pre1 img {
+  height: 200px;
+  margin-left: 20px;
+}
+
+.sub {
+  display: flex;
+  flex-direction: column;
+  margin-left: 90px;
+}
+
+.d3 {
+  background-repeat: no-repeat;
+  border-left: 10px solid #000d75;
+  font-size: 130%;
+  margin: 30px 0 5px 20px;
+  padding: 8px 10px 5px;
+}
+
+.pre2 {
+  margin: 5px;
+  padding: 5px 20px;
+}
+
+table {
+  margin: 10px;
+  width: 600px;
+}
+
+td {
+  border: 1px solid #b7b7b7;
+  padding: 5px;
+}
+
+td:nth-child(1) {
+  text-align: center;
+  width: 150px;
+}
+
+td:nth-child(2) {
+  width: 600px;
+}
+
+.d4 {
+  background-repeat: no-repeat;
+  border-left: 10px solid #000d75;
+  font-size: 130%;
+  margin: 30px 0 5px 20px;
+  padding: 8px 10px 5px;
+}
+
+.pre3 {
+  border: 5px solid #5abbe4;
+  margin: 20px 37px;
+  padding: 10px 30px;
+  width: 525px;
+}
+
+.d5 {
+  background-repeat: no-repeat;
+  border-left: 10px solid #000d75;
+  font-size: 130%;
+  margin: 30px 0 5px 20px;
+  padding: 8px 10px 5px;
+}
+
+.pre4 {
+  margin: 5px;
+  padding: 5px 20px;
+}
+
+.d6 {
+  background-repeat: no-repeat;
+  border-left: 10px solid #000d75;
+  font-size: 130%;
+  margin: 30px 0 5px 20px;
+  padding: 8px 10px 5px;
+}
+
+.creditUnitText1 {
+  margin-left: 37px;
+  width: 350px;
+}
+
+.creditUnitMap1 {
+  padding-left: 37px;
+}
+
+.creditUnitText2 {
+  margin-left: 37px;
+  width: 350px;
+}
+
+.creditUnitMap2 {
+  padding-left: 37px;
+}
+
+
+.creditUnitMap1 > iframe {
+  border: none;
+  height: 300px;
+  width: 595px;
+}
+
+.creditUnitMap2 > iframe {
+  border: none;
+  height: 300px;
+  width: 595px;
+}
