@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Untitled Document</title>
+  <meta name="Author" content="" />
+  <link rel="stylesheet" type="text/css" href="common/reset.css">
+  <link rel="stylesheet" type="text/css" href="common/detail.css">
+  <link rel="stylesheet" type="text/css" href="css/making.css">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $('.slider').bxSlider({
+        auto: true,
+        pause: 5000,
+      });
+    });
+  </script>
+
+</head>
+
+<body>
+  <div class="container">
+    <div class="text1">
+      <h2 class="making-title">制作過程</h2>
+      <p>秋華祭webサイトを作成するにあたり、使用したツールやワイヤーモデル等を紹介します。</p>
+    </div>
+    <h3 class="making-title-sub">【使用したツール】</h3>
+    <div class="tool">
+      <div class="tool1-content">
+        <img src="images/making-tool1.png" alt="GitHub">
+        <div class="tool1-subbox">
+          <h4 class="tool-title">GitHub</h4>
+          <p>Gitの仕組みを利用して、世界中の人偽とが自分の作品(プログラムコードやデザインデータなど)を保存、公開することをできるようにしたwebサービスの名称のこと。<br>GitHub社という会社によって運営されており、個人・企業問わず無料で利用することができる。</p>
+        </div>
+      </div>
+      <div class="tool2-content">
+        <div class="tool2-subbox">
+          <h4 class="tool-title">SourceTree</h4>
+          <p>Gitを簡単に使えるようにしたツールで、Gitの理解も簡単にできる優れもの。<br>「今誰が、どのファイルを、どのように編集しているのか？」という作業の視覚化ができる。</p>
+        </div>
+        <img src="images/making-tool2.png" alt="sourcetree">
+      </div>
+      <div class="tool1-content">
+        <img src="images/making-tool3.jpg" alt="GitHub">
+        <div class="tool3-subbox">
+          <h4 class="tool-title">Brackets</h4>
+          <p>Adobe Systemsが開発しGitHub上に公開されているオープンソースのテキストエディタのこと。BracketsにはHTML、CSS、JavaScript言語の他に30以上の言語が用意されているため、一般的な言語であれば問題なく使うことができる。</p>
+        </div>
+      </div>
+      <div class="tool1-content">
+        <div class="tool4-subbox">
+          <h4 class="tool-title">adobe XD</h4>
+          <p>webサイトや、モバイルアプリなどのデザインに適した、オールインワンのUX/UIソリューション。デザイン、プロトタイプ、共有、すべてをXDで行える。</p>
+        </div>
+        <img src="images/making-tool4.jpg" alt="adobe xd" height="226">
+      </div>
+    </div>
+
+    <h3 class="making-title-sub">【ワイヤーモデル】</h3>
+    <div class="slider">
+      <img src="images/top.png" alt="top">
+      <img src="images/greething.png" alt="挨拶">
+      <img src="images/syuukasai.png" alt="秋華祭とは">
+      <img src="images/zenyasai.png" alt="前夜祭">
+      <img src="images/touzitsu.png" alt="当日">
+      <img src="images/kako.png" alt="過去">
+      <img src="images/announcement.png" alt="アナウンス">
+      <img src="images/access.png" alt="アクセス">
+      <img src="images/toiawase.png" alt="お問合せ">
+    </div>
+
+
+    <h3 class="making-title-sub">【苦労した点】</h3>
+    <h4 class="subtitle">■ 色デザイン</h4>
+    <div class="color-content">
+      <div class="color-box">
+        <img src="images/color-img1.png">
+      </div>
+      <div class="color-box">
+        <img src="images/color-img2.png">
+      </div>
+    </div>
+    <p class="text">最初はwebサイト全体の色を秋華祭ロゴに合わせていたため、『春』らしい雰囲気になってしまった。</p>
+
+    <div class="color-content">
+      <div class="color-box">
+        <img src="images/color-img3.png">
+      </div>
+      <div class="color-box">
+        <img src="images/color-img4.png">
+      </div>
+    </div>
+    <div class="color-content">
+      <div class="color-box">
+        <img src="images/color-img5.png">
+      </div>
+      <div class="color-box">
+        <img src="images/color-img6.png">
+      </div>
+    </div>
+    <p class="text">とりあえず『秋っぽい』色で構成した結果、背景色（ベースカラー）が濃くなってしまい、要素の箱の白とベースカラーの色の明るさの違いで目が痛くなってしまう色デザインになってしまった。<br>また、背景色とナビゲーションにマウスを持って行ったとき（hover時）の色（アクセントカラー）にあまり差がなく、アクセントになっていなかった。</p>
+
+    <div class="color-content">
+      <div class="color-box">
+        <img src="images/color-img7.png">
+      </div>
+      <div class="color-box">
+        <img src="images/color-img8.png">
+      </div>
+    </div>
+    <p class="text">背景に画像を持ってくることで、要素の箱の白とベースカラーの明るさの違いで目が痛くなることもなく、また背景画像に紅葉が用いられているため、一気に秋っぽくなった。<br>しかし、背景に描かれているものが目立つ可能性があり、写真を載せたときに写真の邪魔になってしまう可能性があった。</p>
+
+    <div class="color-content">
+      <div class="color-box">
+        <img src="images/color-img9.png">
+      </div>
+      <div class="color-box">
+        <img src="images/color-img10.png">
+      </div>
+    </div>
+    <p class="text">改善後、完成したのが現在の色デザインである。</p>
+
+  </div>
+
+
+
+
+</body>
+
+</html>
