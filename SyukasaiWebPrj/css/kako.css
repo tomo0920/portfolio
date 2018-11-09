@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+.content1 {
+  text-align: center;
+  height: 500px;
+}
+
+.msgbox1 {
+  height: 400px;
+}
+
+.textAbout {
+  border: none;
+}
+
+.provisionaltitle {
+  padding-top: 120px;
+}
+
+@media screen and (max-width:479px) {
+
+  .provisionaltitle {
+    padding-top: 20px;
+  }
+}

@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+.pc {
+  display: block!important;
+}
+
+.sp {
+  display: none!important;
+}
+
+.logo img {
+  text-align: center;
+  width: 100%;
+}
+
+@media only screen and (max-width: 479px) {
+  .pc {
+    display: none!important;
+  }
+  .sp {
+    display: block!important;
+  }
+}

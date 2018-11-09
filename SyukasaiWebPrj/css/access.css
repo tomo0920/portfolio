@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+.textAbout img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  /*  width: 680px;*/
+}
+
+footer {
+  width: 100%;
+  height: auto;
+}
