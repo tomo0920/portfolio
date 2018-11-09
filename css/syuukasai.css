@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+.container {
+  margin: auto;
+  width: 1000px;
+}
+
+.work-box1 {
+  display: flex;
+  margin-top: 70px;
+  width: 100%;
+}
+
+.work-box2 {
+  text-align: center;
+  margin-top: 80px;
+}
+
+.mobile-box {
+  margin: 20px;
+}
+
+.mobile-box img {
+  width: 100%;
+}
