@@ -43,4 +43,9 @@
     text-align: center;
     width: 100%;
   }
+    .unit1{
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
 }

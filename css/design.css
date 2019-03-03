@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+.container {
+  margin: auto;
+  width: 1000px;
+}
+
+.content{
+    margin-top: 150px;
+}
+
+.content p{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.design-title{
+    text-align: center;
+}
+
+.design-title span{
+    border-bottom: 1px solid #66CC99;
+    padding: 0 0 10px 0;
+}
+
+.design-screen{
+    text-align: center;
+}

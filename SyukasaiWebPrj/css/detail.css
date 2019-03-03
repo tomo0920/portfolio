@@ -379,6 +379,7 @@ main {
 
   .textAbout {
     font-size: 18px;
+      min-height: 500px;
     text-align: center;
     padding: 0;
   }
