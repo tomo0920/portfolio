@@ -5,14 +5,17 @@
   width: 1000px;
 }
 
+.text{
+    text-align: center;
+}
+
 .content{
     margin-top: 150px;
 }
 
-.content p{
+.content-text p{
     margin-top: 30px;
     margin-bottom: 30px;
-    text-align: center;
 }
 
 .design-title{

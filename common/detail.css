@@ -37,11 +37,6 @@ body {
   text-align: center;
 }
 
-.work1-text-nav li {
-  margin-right: 30px;
-  padding-right: 20px;
-}
-
 .text1 p {
   padding: 20px;
   text-align: center;
@@ -130,10 +125,26 @@ main {
   padding: 20px;
 }
 
+.date{
+    text-align: center;
+    display: block;
+}
+
 .day{
     font-size: 15px;
     font-weight: bold;
+    text-align: left;
+    display: inline-block;
+}
+
+.content-text{
     text-align: center;
+    display: block;
+}
+
+.content-text p{
+    text-align: left;
+    display: inline-block;
 }
 
 .button-glow img:hover {
